@@ -144,7 +144,6 @@ jobs:
           name: Staging and Database testing
           command: |
             sudo -E /bin/bash ./shell/gcloud-pull-staging-files.sh
-            sudo -E /bin/bash ./shell/database-setup.sh
       - run:
           name: Compare Config
           command: |
