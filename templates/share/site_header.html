@@ -67,6 +67,7 @@
                             <i class="fas fa-search"></i>
                         </a>
                     </li>
+
                     {% if user.is_authenticated %}
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle {% if 'users/' in request.path or 'account' in request.path %} active {% endif %}"
